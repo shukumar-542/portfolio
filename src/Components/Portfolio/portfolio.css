@@ -1,0 +1,30 @@
+.portfolio{
+      height: 80vh;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+}
+.portfolio span:nth-of-type(1){
+      color: var(--black);
+      font-size: 2rem;
+      font-weight: bold;
+}
+.portfolio span:nth-of-type(2){
+      color: var(--orange);
+      font-size: 2.5rem;
+      font-weight: bold;
+}
+.portfolio .swiper{
+      overflow: visible!important;
+}
+.protfolio-slider{
+      margin-top: 3rem;
+      width: 100%;
+}
+.protfolio-slider .swiper{
+      width: 20rem;
+}
+.swiper img{
+      width: 19rem;
+      border-radius: 19px;
+}

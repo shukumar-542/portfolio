@@ -1,0 +1,121 @@
+.Works{
+      display: flex;
+      height: 90vh;
+      padding: 0 3rem 0 3rem;
+      padding-top: 6rem;
+
+}
+.w-left{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+}
+.w-left>:nth-child(1){
+      font-weight: bold;
+      font-size: 3rem;
+      color:var(--black)
+}
+.w-left>:nth-child(2){
+      font-size: 3rem;
+      font-weight: bold;
+      color: var(--orange);
+
+}
+.w-left>:nth-child(3){
+      color: var(--gray);
+      font-size: 16px;
+      margin-top: 1rem;
+}
+.w-button{
+      width: 6rem;
+      margin-top: 2rem;
+
+}
+.w-blur{
+      width: 22rem;
+      height: 14rem;
+      border-radius: 50%;
+      background: rgb(109, 180, 191);
+      filter: blur(70px);
+      z-index: -9;
+      position: absolute;
+      left: -60%;
+      top: 55%;
+}
+.w-right{
+      display: flex;
+      position: relative;
+
+}
+.w-maincircle{
+      position: absolute;
+      left: 9rem;
+      width: 18rem;
+      height: 18rem;
+      border-radius: 100%;
+      box-shadow:var(--smboxShadow);
+      top: 2rem;
+      background: white;
+}
+.w-maincircle>*{
+      position: relative;
+}
+.w-seccircle{
+      position: absolute;
+
+}
+.w-seccircle:nth-child(1){
+      top: -3rem;
+      left: 6rem;
+}
+.w-seccircle:nth-child(2){
+      top: 5rem;
+      left: -3rem;
+}
+
+.w-seccircle:nth-child(3){
+      top: 15rem;
+      left: 6rem;
+}
+.w-seccircle:nth-child(4){
+      top: 5rem;
+      left: 16rem;
+}
+
+.w-seccircle:nth-child(5){
+      top: 5.5rem;
+      left: 6.5rem;
+}
+.w-seccircle{
+      height: 6rem;
+      width: 6rem;
+      border-radius: 100%;
+      border: 5px solid #ebebeb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--smboxShadow);
+
+}
+.w-seccircle>img{
+      transform: scale(.6);
+}
+.back-circle{
+      position: relative;
+      height: 13rem;
+      width: 13rem;
+      border-radius: 100%;
+      z-index: -1;
+}
+.innner-back1{
+      background: blue;
+      left: 15rem;
+      top: 0rem;
+}
+.inner-back2{
+      background: yellow;
+      left: 4rem;
+      top: 9rem;
+      
+      
+}
